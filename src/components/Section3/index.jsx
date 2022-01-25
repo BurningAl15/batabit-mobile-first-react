@@ -3,7 +3,7 @@ import './style.scss';
 function Section1() {
   return (
     <section>
-      Section1
+      Section3
     </section>
   );
 }
