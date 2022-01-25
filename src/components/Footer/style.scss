@@ -1,0 +1,40 @@
+@import "../../style/variables";
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 130px);
+  height: fit-content;
+  background: $color_orange;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 65px;
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 52px;
+    a {
+      color: $color_white;
+      text-decoration: none;
+      margin-bottom: 12px;
+      &:last-child{
+          margin-bottom: 0px;
+      }
+    }
+  }
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+    }
+    p {
+      color: $color_white;
+      font-size: $font-size-8;
+    }
+  }
+}
