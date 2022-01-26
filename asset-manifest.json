@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/batabit-mobile-first-react/static/css/main.0d8a502b.css",
+    "main.js": "/batabit-mobile-first-react/static/js/main.1d620592.js",
+    "static/media/bitcoinbaby.png": "/batabit-mobile-first-react/static/media/bitcoinbaby.0526dd249a2fcd7ac1bc.png",
+    "static/media/Bitcoin.png": "/batabit-mobile-first-react/static/media/Bitcoin.12f6ee3f1885e00d9fe7.png",
+    "index.html": "/batabit-mobile-first-react/index.html",
+    "static/media/trending-down.svg": "/batabit-mobile-first-react/static/media/trending-down.afccfb17f5d365de948569986741fc34.svg",
+    "static/media/trending-up.svg": "/batabit-mobile-first-react/static/media/trending-up.e1a27d1f9cf1da8320ef0d1f5adff4a5.svg",
+    "main.0d8a502b.css.map": "/batabit-mobile-first-react/static/css/main.0d8a502b.css.map",
+    "main.1d620592.js.map": "/batabit-mobile-first-react/static/js/main.1d620592.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d8a502b.css",
+    "static/js/main.1d620592.js"
+  ]
+}
