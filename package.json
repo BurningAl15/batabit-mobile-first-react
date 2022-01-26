@@ -2,6 +2,7 @@
   "name": "mobile-first-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://BurningAl15.github.io/batabit-mobile-first-react",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -21,10 +22,12 @@
     "eject": "react-scripts eject",
     "lint": "eslint --ext .jsx,.js src",
     "lint:fix": "npm run lint -- --fix",
-    "pre-commit": "npm run lint",
-    "pre-push": "npm test",
-    "post-merge": "npm install",
-    "post-rewrite": "npm install"
+    "precommit": "npm run lint",
+    "prepush": "npm test",
+    "postmerge": "npm install",
+    "postrewrite": "npm install",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -50,6 +53,7 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "gh-pages": "^3.2.3"
   }
 }
