@@ -1,8 +1,6 @@
 @import "../../style/variables";
 
 footer {
-  position: absolute;
-  bottom: 0;
   width: calc(100% - 130px);
   height: fit-content;
   background: $color_orange;

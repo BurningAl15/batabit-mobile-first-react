@@ -1,10 +1,10 @@
 import './style.scss';
 
-function Section1() {
+function Section4() {
   return (
     <section>
       Section4
     </section>
   );
 }
-export default Section1;
+export default Section4;

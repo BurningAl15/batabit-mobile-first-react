@@ -1,0 +1,10 @@
+@import "../../style/variables";
+
+.section-2 {
+  background-color: $color_warm_black;
+  .section-2-container {
+    width: 288px;
+    margin: auto;
+    color:$color_white;
+  }
+}

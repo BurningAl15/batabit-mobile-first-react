@@ -1,0 +1,71 @@
+@import "../../style/variables";
+
+.section-1 {
+  width: 288px;
+  margin: auto;
+  .section-1-img {
+  }
+  .section-1-title {
+    font-size: $font-size-24;
+    line-height: $font-line-height-26;
+    font-weight: 700;
+  }
+  .section-1-description {
+    font-size: $font-size-14;
+    line-height: $font-line-height-18;
+    font-weight: 500;
+    color: $color_gray;
+  }
+  .section-1-table-container {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .section-1-coins {
+      align-self: flex-start;
+      font-size: $font-size-16;
+      font-weight: 700;
+      color: $color_orange;
+    }
+
+    table {
+      border-spacing: 0px;
+      width: 100%;
+      background-color: $color_table_background;
+      border-radius: 10px;
+      outline: 2px solid $color_background;
+      tbody {
+        tr {
+          td {
+            font-weight: 500;
+            color: $color_table_font;
+            text-align: left;
+            padding: 10px 12px;
+            outline: 1px solid $color_background;
+
+            // border: 1px solid $color_background;
+            &.price {
+              color: $color_gray;
+            }
+            img {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .section-1-update-time {
+    padding: 8px;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: $color_soft_orange;
+    font-size: $font-size-14;
+    width: 173px;
+    margin: auto;
+    margin-bottom: 65px;
+  }
+}
