@@ -26,7 +26,7 @@
     "prepush": "npm test",
     "postmerge": "npm install",
     "postrewrite": "npm install",
-    "predeploy":"npm run build",
+    "predeploy":"npm run lint && npm run build",
     "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
