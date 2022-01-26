@@ -1,0 +1,38 @@
+@import "../../../style/variables";
+
+.data-card-container {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  margin-bottom: 16px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+
+  background-color: $color_warm_black_light;
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    fill: $color_orange;
+  }
+  .data-card-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+  }
+  .data-card-description {
+    font-size: $font-size-14;
+    font-weight: 500;
+    line-height: $font-line-height-18;
+    letter-spacing: 0em;
+    color: $color_font_description_2;
+  }
+
+  &:last-child{
+      margin-bottom: 0px;
+  }
+}

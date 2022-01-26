@@ -1,0 +1,77 @@
+@import "../../../style/variables";
+
+.price-card {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px $color_shadow;
+  border-radius: 8px;
+  max-width: 190px;
+  padding: 24px 20px;
+  margin: auto;
+  .price-card-title {
+    font-weight: 500;
+    font-size: $font-size-14;
+    line-height: $font-line-height-18;
+
+    color: #000000;
+  }
+  .price-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    .price-card-dollar {
+      margin: 0;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+
+      text-align: center;
+
+      color: #363636;
+    }
+    .price-card-price {
+      margin: 0;
+
+      font-style: normal;
+      font-weight: bold;
+      font-size: 52px;
+      line-height: 63px;
+      letter-spacing: -0.08em;
+    }
+  }
+  .price-card-description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: $color_gray;
+  }
+  .price-card-button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    padding: 15px 16px;
+    width: 151px;
+    background-color: $color_white;
+    border: 2px solid $color_orange;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #201e1c;
+
+    svg {
+      margin-left: 7px;
+      width: 20px;
+      height: 20px;
+      fill: $color_orange;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import "../../style/variables";
+
+.section-3 {
+  background: url("../../assets/bitcoinbaby.png");
+  background-position: center;
+  background-size: cover;
+  height: 387px;
+
+  .section-3-container {
+    width: 288px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    .section-3-text-img {
+      margin: 0;
+      margin-top:65px;
+      padding: 0;
+      font-family: DM Sans;
+      font-size: $font-size-24;
+      font-weight: 700;
+      letter-spacing: 0em;
+      color: $color_white;
+    }
+  }
+}

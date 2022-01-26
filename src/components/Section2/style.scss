@@ -2,9 +2,24 @@
 
 .section-2 {
   background-color: $color_warm_black;
+  padding: 64px 0 46px 0;
   .section-2-container {
     width: 288px;
     margin: auto;
-    color:$color_white;
+    color: $color_white;
+    .section-2-title {
+      font-size: $font-size-24;
+      font-style: normal;
+      font-weight: 700;
+      line-height: $font-line-height-26;
+      letter-spacing: 0em;
+    }
+    .section-2-description {
+      color:$color_font_description_2;
+      font-weight: 500;
+      font-size: $font-size-14;
+      line-height: $font-line-height-18;
+      margin-bottom:32px;
+    }
   }
 }
